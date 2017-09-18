@@ -43,5 +43,3 @@ function formatMinutes(minutes){
   }
 }
 */
-
-console.log("If the clock is not up to date refresh the page.");
