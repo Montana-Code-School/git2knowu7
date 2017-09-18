@@ -1,4 +1,4 @@
-var time = new Date("January 1, 1999 13:01:12");
+var time = new Date();
 var date = time.getDate();
 var hours = time.getHours();
 var minutes = time.getMinutes();
@@ -32,3 +32,4 @@ button.addEventListener("click", myFunction);
 function myFunction() {
     alert ("The time is " + hours + ":" + minutes + " " + cycle);
 }
+console.log("If the clock is not up to date refresh the page.");
