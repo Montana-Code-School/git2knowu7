@@ -1,0 +1,31 @@
+body {
+  background: url("images/background1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 50px;
+}
+
+#c_head1 {
+  font-size: 45px;
+  text-align: center;
+  color: White;
+  outline: 20px;
+  outline-color: black;
+  margin-bottom: 50px;
+  text-shadow: 15px 1ß5px #161616;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: Times, serif;
+  text-shadow: 5px 5px #161616;
+}
+
+ul {
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px #161616;
+}
