@@ -1,5 +1,4 @@
-
-var button = document.getElementById('clickMe')
+var button = document.getElementById("clickMe");
 button.addEventListener("click", myFunction);
 function myFunction() {
   var time = new Date();
@@ -7,52 +6,51 @@ function myFunction() {
   var hours = time.getHours();
   var minutes = time.getMinutes();
   var cycle;
-  if(hours < 12) {
+  if (hours < 12) {
     cycle = "am";
-  }
-  else {
+  } else {
     cycle = "pm";
   }
-  switch(hours) {
+  switch (hours) {
     case 13:
-    hours = 1;
-    break;
+      hours = 1;
+      break;
     case 14:
-    hours = 2;
-    break;
+      hours = 2;
+      break;
     case 15:
-    hours = 3;
-    break;
+      hours = 3;
+      break;
     case 16:
-    hours = 4;
-    break;
+      hours = 4;
+      break;
     case 17:
-    hours = 5;
-    break;
+      hours = 5;
+      break;
     case 18:
-    hours = 6;
-    break;
+      hours = 6;
+      break;
     case 19:
-    hours = 7;
-    break;
+      hours = 7;
+      break;
     case 20:
-    hours = 8;
-    break;
+      hours = 8;
+      break;
     case 21:
-    hours = 9;
-    break;
+      hours = 9;
+      break;
     case 22:
-    hours = 10;
-    break;
+      hours = 10;
+      break;
     case 23:
-    hours = 11;
-    break;
+      hours = 11;
+      break;
   }
 
   if (minutes <= 9) {
-    minutes = '0' +  minutes;
+    minutes = "0" + minutes;
   }
-    alert ("The time is " + hours + ":" + minutes + " " + cycle);
+  alert("The time is " + hours + ":" + minutes + " " + cycle);
 }
 /*
 function formatMinutes(minutes){
